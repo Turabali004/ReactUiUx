@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Dubai", sans-serif;
+}
+.Primary-bgColor {
+  background-color: #6a54f4;
+}
+.Primary-Color {
+  color: #6a54f4;
+}
+.white {
+  color: #ffff;
+}
+.black {
+  color: #000;
+}
+
+@font-face {
+  font-family: "Dubai";
+  src: url("./assets/fonts/Dubai-Regular.woff") format("truetype");
+  /* src: url('/src/assets/fonts/Dubai-Regular.ttf') format('truetype'); */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dubai";
+  /* src: url('/src/assets/fonts/Dubai-Bold.ttf') format('truetype'); */
+  src: url("./assets/fonts/Dubai-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dubai";
+  src: url("./assets/fonts/Dubai-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
